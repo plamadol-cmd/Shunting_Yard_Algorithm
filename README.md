@@ -4,9 +4,8 @@ The shunting yard algorithm is used to convert the infix notation to reverse pol
 Pseudocode:
 
 1. cat timp exista o entitate de citit:
-    1.1. citeste entitatea (i.e. operand sau operator)
-    1.2. daca entitatea este un operand (i.e. un numar), atunci:
-        1.2.1 adauga la forma postfixata
+    - citeste entitatea (i.e. operand sau operator)
+        - daca entitatea este un operand (i.e. un numar), atunci adauga la forma postfixata
     1.3. daca entitatea este un operator (fie el O1), atunci:
         1.3.1 cat timp (exista un operator in varful stivei (fie el O2)) SI
         (O2 este diferit de paranteza-stanga) SI
